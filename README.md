@@ -1,26 +1,5 @@
 # telegraph-Image
 
-> 旧版在[static](https://github.com/x-dr/telegraph-Image/tree/static)分支
-
-
-### Demo
-
-[https://img.131213.xyz](https://img.131213.xyz)
-
-### 测试
-[https://telegraph-image-e49.pages.dev/](https://telegraph-image-e49.pages.dev/)
-
-```
-测试管理员账号：admin
-测试管理员密码：admin
-
-测试普通用户：user
-测试普通用户：user
-
-```
-
-
-
 
 ### 优点
 
@@ -87,13 +66,6 @@
 > 获取ID机器人 [@VersaToolsBot](https://t.me/VersaToolsBot)
 
 > `TG_CHAT_ID`为目标对话的唯一标`ID`或目标频道的用户名（eg: @channelusername），当目标对话为个人或私有频道是只能是`ID`,当为公开频道或群组是可以为目标频道的用户名（eg: `@channelusername`）
-
-
-
-
-### Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=x-dr/telegraph-Image&type=Date)](https://star-history.com/#x-dr/telegraph-Image&Date)
 
 
 

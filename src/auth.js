@@ -17,6 +17,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             username: process.env.REGULAR_USER,
             password: process.env.REGULAR_PASS
           };
+          console.log("asdfasdfdsafsaf", adminUser);
 
           if (credentials.username === adminUser.username && credentials.password === adminUser.password) {
             const user = {

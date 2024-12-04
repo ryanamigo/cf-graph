@@ -28,7 +28,7 @@ export async function POST(request) {
 
 
 
-	const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || request.socket.remoteAddress;
+	const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || request.socket?.remoteAddress || 'unknown';
 	const clientIp = ip ? ip.split(',')[0].trim() : 'IP not found';
 	const Referer = request.headers.get('Referer') || "Referer";
 
