@@ -229,7 +229,9 @@ export default function Home() {
       }
 
       setUploadedFilesNum(uploadedFilesNum + successCount);
-      toast.success(`已成功上传 ${successCount} 张图片`);
+      if (successCount > 0) {
+        toast.success(`已成功上传 ${successCount} 张图片`);
+      }
 
     } catch (error) {
       console.error('上传过程中出现错误:', error);
